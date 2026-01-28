@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dasbikash.demontier.util.MathUtilTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-28T13:00:25.361Z" hostname="bdash0224mac" time="0.012">
+  <properties/>
+  <testcase name="testFailure()" classname="dasbikash.demontier.util.MathUtilTest" time="0.006"/>
+  <testcase name="Successful Addition Test" classname="dasbikash.demontier.util.MathUtilTest" time="0.005"/>
+  <system-out><![CDATA[2026-01-28T18:30:25.352+05:30  INFO 67937 --- [demontier] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [dasbikash.demontier.util.MathUtilTest]: MathUtilTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-28T18:30:25.358+05:30  INFO 67937 --- [demontier] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration dasbikash.demontier.DemontierApplication for test class dasbikash.demontier.util.MathUtilTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

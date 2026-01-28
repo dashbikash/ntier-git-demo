@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dasbikash.demontier.DemontierApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-28T13:00:24.891Z" hostname="bdash0224mac" time="0.285">
+  <properties/>
+  <testcase name="Bootstrap Test" classname="dasbikash.demontier.DemontierApplicationTests" time="0.285"/>
+  <system-out><![CDATA[18:30:22.886 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [dasbikash.demontier.DemontierApplicationTests]: DemontierApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:30:22.938 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration dasbikash.demontier.DemontierApplication for test class dasbikash.demontier.DemontierApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.9)
+
+2026-01-28T18:30:23.165+05:30  INFO 67937 --- [demontier] [    Test worker] d.demontier.DemontierApplicationTests    : Starting DemontierApplicationTests using Java 17.0.12 with PID 67937 (started by bdash in /Users/bdash/Learnings/demontier)
+2026-01-28T18:30:23.166+05:30  INFO 67937 --- [demontier] [    Test worker] d.demontier.DemontierApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T18:30:23.445+05:30  INFO 67937 --- [demontier] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T18:30:23.472+05:30  INFO 67937 --- [demontier] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2026-01-28T18:30:23.680+05:30  INFO 67937 --- [demontier] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28T18:30:23.708+05:30  INFO 67937 --- [demontier] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-01-28T18:30:23.725+05:30  INFO 67937 --- [demontier] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-28T18:30:23.863+05:30  INFO 67937 --- [demontier] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T18:30:23.878+05:30  INFO 67937 --- [demontier] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T18:30:24.047+05:30  INFO 67937 --- [demontier] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dad535f
+2026-01-28T18:30:24.048+05:30  INFO 67937 --- [demontier] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T18:30:24.095+05:30  INFO 67937 --- [demontier] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.8
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28T18:30:24.498+05:30  INFO 67937 --- [demontier] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T18:30:24.530+05:30  INFO 67937 --- [demontier] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T18:30:24.696+05:30  WARN 67937 --- [demontier] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28T18:30:24.882+05:30  INFO 67937 --- [demontier] [    Test worker] d.demontier.DemontierApplicationTests    : Started DemontierApplicationTests in 1.854 seconds (process running for 2.428)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

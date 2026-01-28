@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dasbikash.demontier.services.ApiServiceTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-01-28T13:00:25.323Z" hostname="bdash0224mac" time="0.025">
+  <properties/>
+  <testcase name="Get All Employees" classname="dasbikash.demontier.services.ApiServiceTests" time="0.025">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Prasd&gt; but was: &lt;Prasad&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Prasd&gt; but was: &lt;Prasad&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//dasbikash.demontier.services.ApiServiceTests.testGetAllEmployees(ApiServiceTests.java:45)
+	at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base@17.0.12/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.12/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[2026-01-28T18:30:25.180+05:30  INFO 67937 --- [demontier] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [dasbikash.demontier.services.ApiServiceTests]: ApiServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-28T18:30:25.184+05:30  INFO 67937 --- [demontier] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration dasbikash.demontier.DemontierApplication for test class dasbikash.demontier.services.ApiServiceTests
+[Employee{id=1, name='Bikash', email='bikash@cts.com'}, Employee{id=2, name='Laxmi', email='laxmi@cts.com'}, Employee{id=3, name='Prasad', email='prasad@cts.com'}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
